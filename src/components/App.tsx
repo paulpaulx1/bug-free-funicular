@@ -1,5 +1,6 @@
 import { Provider } from 'react-redux';
 import { store } from '../state';
+import RepositoriesList from './RepositoriesList';
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <>
         hellworld
         <h1>search for package</h1>
-        {/* <RepositoriesList /> */}
+        <RepositoriesList />
       </>
     </Provider>
   );
